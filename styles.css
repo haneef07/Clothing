@@ -1,0 +1,208 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart-logo {
+  list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+  background-image: url('https://img.freepik.com/free-photo/rack-clothes-store_23-2148929537.jpg?w=996&t=st=1687329608~exp=1687330208~hmac=4dd261aaecadb9dc92d01bc7df62c5dbc7f4347909aa0e968fb641fe7c7ebfe4.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 270px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+section {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.shop-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.product {
+   width: 300px;
+   margin: 10px;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-listing h3{
+  align: center;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product-details {
+  text-align: center;
+  width: 800px;
+}
+
+.product-details img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.product-details p {
+  font-size: 16px;
+  color: #777;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contact Page Styles */
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* Update the styles for the "Clear Cart" button */
+.clear-cart-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Update the styles for the empty cart message */
+.lonely-text {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 200px;
+  color: #999;
+}
+
+.cart-actions {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+

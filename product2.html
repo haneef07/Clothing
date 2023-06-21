@@ -1,0 +1,39 @@
+<!-- product2.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product 2 - My Clothing Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <a href="cart.html" class="cart-logo">Cart</a>
+</header>
+
+<section class="product-details">
+  <h2>Product 2</h2>
+  <img src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-wearing-jeans-clothes-sunglasses-fashion-man_158538-5015.jpg?w=900&t=st=1687329026~exp=1687329626~hmac=059920b79bc567940bbb16bf84f859659a33aaecd61d6223d71ff61c870d6fb0.jpg" alt="Product 2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p>Price: $59.99</p>
+  <a href="javascript:void(0)" class="btn" onclick="event.preventDefault(); window.location.href='shop.html';">Back to Shop</a>
+  <a href="#" class="btn" onclick="addToCart('Product 2', 59.99)">Add to Cart</a>
+</section>
+
+<footer>
+  <p>&copy; 2023 My Clothing Store. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
